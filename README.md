@@ -34,7 +34,7 @@ Here are the steps to set up the development environment for this project:
    npm run dev
    ```
 
-9. Open your web browser and access <http://localhost:5197/bb-alinsangan-nabua/> to view the application.
+9. Open your web browser and access <http://localhost:5206/bb-alinsangan-nabua/> to view the application.
 
 
 ---
