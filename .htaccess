@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /miss-gay-alinsangan/
+RewriteBase /bb-alinsangan-nabua/
 
 # Exclude assets from rewrite rule
 RewriteCond %{REQUEST_URI} !\.(css|js|svg|jpg|jpeg|png|gif|woff2|ico|ttf)$ [NC]
@@ -7,9 +7,9 @@ RewriteCond %{REQUEST_URI} !\.(css|js|svg|jpg|jpeg|png|gif|woff2|ico|ttf)$ [NC]
 # Redirect all requests to index.html
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /miss-gay-alinsangan/public/index.html [L]
+RewriteRule ^(.*)$ /bb-alinsangan-nabua/public/index.html [L]
 
 # Exclude the public and app directories from the rewrite rule
-RewriteCond %{REQUEST_URI} !^/miss-gay-alinsangan/public/
-RewriteCond %{REQUEST_URI} !^/miss-gay-alinsangan/app/
-RewriteRule ^(.*)$ /miss-gay-alinsangan/public/$1 [L]
+RewriteCond %{REQUEST_URI} !^/bb-alinsangan-nabua/public/
+RewriteCond %{REQUEST_URI} !^/bb-alinsangan-nabua/app/
+RewriteRule ^(.*)$ /bb-alinsangan-nabua/public/$1 [L]
