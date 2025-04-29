@@ -33,6 +33,7 @@ app/crud/uploads/*
 !app/crud/uploads/grechelle-yvonne-murillo.jpg
 !app/crud/uploads/rosalyn-braga.jpg
 !app/crud/uploads/jasmine-tangtang.jpg
+!app/crud/uploads/ramona.jpg
 !app/crud/uploads/full
 !app/crud/uploads/no-avatar.jpg
 !app/crud/dist
