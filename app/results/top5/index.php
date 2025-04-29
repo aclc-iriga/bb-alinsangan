@@ -11,28 +11,24 @@
     const EVENTS = [
         [
             'slug'    => 'production',
-            'percent' => 20
-        ],
-        [
-            'slug'    => 'festival-attire',
-            'percent' => 20
-        ],
-        [
-            'slug'    => 'swimsuit',
-            'percent' => 20
-        ],
-        [
-            'slug'    => 'evening-gown',
-            'percent' => 20
+            'percent' => 25
         ],
         [
             'slug'    => 'prelim-qa',
-            'percent' => 20
-        ]
+            'percent' => 25
+        ],
+        [
+            'slug'    => 'swimsuit',
+            'percent' => 25
+        ],
+        [
+            'slug'    => 'long-gown',
+            'percent' => 25
+        ],
     ];
 
     // initialize titles
-    $titles = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+    $titles = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14'];
 
     // initialize location quota
     const LOCATION_QUOTA = 1;
