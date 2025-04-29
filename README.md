@@ -1,4 +1,4 @@
-# bb-alinsangan-nabua
+# bb-alinsangan
 
 Tabulation System for Bb. Alinsangan 
 
@@ -14,15 +14,15 @@ Here are the steps to set up the development environment for this project:
 2. Start Apache and MySQL through XAMPP if not already running.
 
 3. Clone or download this repository to your XAMPP **htdocs** folder.
-   The final path should be `path_to/xampp/htdocs/bb-alinsangan-nabua`.
+   The final path should be `path_to/xampp/htdocs/bb-alinsangan`.
 
 4. Copy [**`app/config/database.example.php`**](app/config/database.example.php)
    to **`app/config/database.php`**, then modify the database connection settings in the new file.
 
 5. Inside [phpMyAdmin](http://localhost/phpmyadmin),
-   create a MySQL database named `bb-alinsangan-nabua` and import [bb-alinsangan-nabua.sql](bb-alinsangan-nabua.sql) into it.
+   create a MySQL database named `bb-alinsangan` and import [bb-alinsangan.sql](bb-alinsangan.sql) into it.
 
-6. Open the terminal and navigate to the project directory **bb-alinsangan-nabua**.
+6. Open the terminal and navigate to the project directory **bb-alinsangan**.
 
 7. Execute the following commands to install the required dependencies:
    ```sh
@@ -34,7 +34,7 @@ Here are the steps to set up the development environment for this project:
    npm run dev
    ```
 
-9. Open your web browser and access <http://localhost:5206/bb-alinsangan-nabua/> to view the application.
+9. Open your web browser and access <http://localhost:5206/bb-alinsangan/> to view the application.
 
 
 ---
@@ -49,7 +49,7 @@ Before getting started, ensure that you have [**Composer**](https://getcomposer.
    to **`tests/backend/config/test-database.php`**, then modify the database connection settings in the new file.
 
 2. Inside [phpMyAdmin](http://localhost/phpmyadmin),
-   create a MySQL database named `test-bb-alinsangan-nabua` and import [bb-alinsangan-nabua.sql](bb-alinsangan-nabua.sql) into it.
+   create a MySQL database named `test-bb-alinsangan` and import [bb-alinsangan.sql](bb-alinsangan.sql) into it.
 
 3. Run the following command to install the required dependencies.
    ```shell
@@ -92,15 +92,15 @@ Here's how to compile the project for production deployment:
    npm run build
    ```
 
-2. Access the application by visiting `http://[host_name]/bb-alinsangan-nabua`,
+2. Access the application by visiting `http://[host_name]/bb-alinsangan`,
    where `host_name` is the **IP address** or **host name** of the server in the network.
    For example:
-     - <http://localhost/bb-alinsangan-nabua>
-     - <http://192.168.1.99/bb-alinsangan-nabua>
+     - <http://localhost/bb-alinsangan>
+     - <http://192.168.1.99/bb-alinsangan>
 
 
 #### Admin Dashboard
-Access the **admin dashboard** at <http://localhost/bb-alinsangan-nabua/app>.
+Access the **admin dashboard** at <http://localhost/bb-alinsangan/app>.
 The default ***username*** and ***password*** is `admin`.
 
 #### Printing Results
