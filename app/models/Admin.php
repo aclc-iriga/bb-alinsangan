@@ -361,7 +361,7 @@ class Admin extends User
         $i = 0;
         $event_titles = $event->getAllTitles();
         foreach($event_titles as $key_title => $title) {
-            if($event->getId() == 6 && $title->getRank() == 1) { // Final Q&A, MISS GAY ALINSANGAN
+            if (false && $event->getId() == 6 && $title->getRank() == 1) { // Final Q&A, Bb. Alinsangan
                 $filled = false;
                 for($j=0; $j<sizeof($unique_final_fractional_ranks); $j++) {
                     foreach($result['teams'] as $key_team => $arr_team) {
